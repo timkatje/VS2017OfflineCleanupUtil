@@ -17,7 +17,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace VS2017OfflineSetupUtility
+namespace VS2017OfflineCleanupUtil
 {
     public static class EnumerableExtensions
     {

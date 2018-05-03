@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace VS2017OfflineSetupUtility
+namespace VS2017OfflineCleanupUtil
 {
     /// <summary>
     /// Interaction logic for App.xaml

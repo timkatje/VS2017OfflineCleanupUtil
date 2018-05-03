@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace VS2017OfflineSetupUtility.Views
+namespace VS2017OfflineCleanupUtil.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -22,6 +22,11 @@ namespace VS2017OfflineSetupUtility.Views
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

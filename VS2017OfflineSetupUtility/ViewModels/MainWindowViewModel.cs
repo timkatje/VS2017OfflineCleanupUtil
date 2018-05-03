@@ -22,7 +22,7 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 
-namespace VS2017OfflineSetupUtility.ViewModels
+namespace VS2017OfflineCleanupUtil.ViewModels
 {
     class MainWindowViewModel:BindableBase
     {
@@ -84,8 +84,9 @@ namespace VS2017OfflineSetupUtility.ViewModels
                 {
                     try
                     {
+
                         CommonOpenFileDialog dialog = new CommonOpenFileDialog();
-                        dialog.InitialDirectory = "C:\\Users";
+                        dialog.InitialDirectory = Path.GetDirectoryName(Directory.GetCurrentDirectory()); //Select the parent dir of execution dir
                         dialog.IsFolderPicker = true;
                         dialog.AddToMostRecentlyUsedList = false;
                         dialog.Title = "Select VS2017 offline setup folder";

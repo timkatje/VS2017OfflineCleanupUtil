@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2017OfflineSetupUtility", "VS2017OfflineSetupUtility\VS2017OfflineSetupUtility.csproj", "{7163237C-B16D-4B76-84FC-081891585EC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS2017OfflineCleanupUtil", "VS2017OfflineSetupUtility\VS2017OfflineCleanupUtil.csproj", "{7163237C-B16D-4B76-84FC-081891585EC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCC0B8ED-17D6-4FFA-A356-46D8010AABC1}
 	EndGlobalSection
 EndGlobal

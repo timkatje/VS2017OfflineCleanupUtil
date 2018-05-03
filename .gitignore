@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/VS2017OfflineSetupUtility/v15
+/VS2017OfflineSetupUtility/bin/Debug
+/.vs/VS2017OfflineCleanupUtil/v15
+/VS2017OfflineSetupUtility/obj/Debug
+/VS2017OfflineSetupUtility/obj/Release

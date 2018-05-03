@@ -1,4 +1,4 @@
-﻿<Window x:Class="VS2017OfflineSetupUtility.Views.MainWindow"
+﻿<Window x:Class="VS2017OfflineCleanupUtil.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:prism="http://prismlibrary.com/"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True"
-        Title="VS2017OfflineSetupUtil" Height="600" Width="650">
+        Title="VS2017OfflineCleanupUtil" Height="600" Width="650">
     <Window.Resources>
         <DataTemplate x:Key="ModuleDataTemplate">
             <StackPanel Orientation="Horizontal">
@@ -33,7 +33,7 @@
             <ColumnDefinition Width="auto"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Text="This utility allow deletion of old version Visual Studio 2017 Offline Setup files"
+        <TextBlock Text="This utility allows for the deletion of outdated VS 2017 Offline Setup files"
                    FontSize="17" Padding="10" TextWrapping="Wrap" FontWeight="SemiBold"
                    Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
 
@@ -44,7 +44,7 @@
                  Margin="10" HorizontalAlignment="Stretch" MinHeight="30" MaxWidth="450" FontSize="17"
                  Grid.Row="2" Grid.Column="0"/>
 
-        <Button Content="Select Folder*" 
+        <Button Content="Select Folder" 
                 Margin="5" Padding="5" FontSize="17" MaxWidth="200" HorizontalAlignment="Left"
                 Grid.Row="2" Grid.Column="1"
                 Command="{Binding SelectFolderCommand}"/>
@@ -57,9 +57,7 @@
 
         <ListView Grid.Row="5" Grid.ColumnSpan="2"
                   ItemsSource="{Binding OldVersionModule}"
-                  ItemTemplate="{StaticResource ModuleDataTemplate}">
-            
-        </ListView>
+                  ItemTemplate="{StaticResource ModuleDataTemplate}" Margin="10,0,-0.286,4.714"/>
 
         <Rectangle Fill="Gray" Height="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="6" Grid.ColumnSpan="2" />
         <TextBlock Text="Step 3: Delete directories with old version from offline setup folder" 

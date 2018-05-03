@@ -1,8 +1,8 @@
 ﻿using Prism.Unity;
 using System.Windows;
-using VS2017OfflineSetupUtility.Views;
+using VS2017OfflineCleanupUtil.Views;
 
-namespace VS2017OfflineSetupUtility
+namespace VS2017OfflineCleanupUtil
 {
     class Bootstrapper: UnityBootstrapper
     {
