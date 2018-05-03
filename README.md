@@ -1,4 +1,4 @@
-# VS2017OfflineSetupUtility
+# VS2017OfflineCleanupUtil
 This utility allows for the deletion of outdated Visual Studio 2017 Offline Setup files and folders
 
 You can download and compile the program yourself, or just download the "bin\Release" folder and run "VS2017OfflineCleanupUtil.exe."
